@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+
+<head>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        h2 {
+
+            color: rgb(71, 60, 45);
+            text-shadow: 5px 5px 10px rgb(75, 44, 4);
+        }
+
+        body {
+            background-color: antiquewhite;
+            background-image: url("akshay.jpeg");
+            background-size: 175px;
+            background-repeat: no-repeat;
+            background-position-x: 600px;
+            background-position-y: 220px;
+        }
+
+        .para1 {
+            font-size: 20px;
+            color: rgb(78, 69, 59);
+            border: 5px solid rgb(53, 48, 40);
+            display: inline-block;
+            padding: 15px;
+            margin-left: 5px;
+            margin-top: 35px;
+            border-width: 5px;
+            border-radius: 40px;
+        }
+
+        h1 {
+            background-color: rgb(58, 52, 45);
+            color: rgb(198, 178, 153);
+            text-align: center;
+            text-shadow : 5px 5px 10px rgb(204, 183, 156);
+            border: 5px solid antiquewhite;
+            display: inline-block;
+            padding: 20px;
+            border-radius: 25px;
+        }
+
+        .para2 {
+            font-size: 14px;
+            color: antiquewhite;
+            background-color: rgb(57, 51, 44);
+            border: 4px solid rgb(63, 57, 49);
+            border-radius: 30px;
+            display: inline-block;
+            padding: 10px;
+
+        }
+
+        .list1 {
+            border: 5px solid rgb(54, 49, 42);
+            border-radius: 30px;
+            display: inline-block;
+            padding: 20px;
+        }
+
+        .para3 {
+
+            color: antiquewhite;
+            background-color: rgb(57, 51, 44);
+            border: 4px solid rgb(63, 57, 49);
+            border-radius: 30px;
+            display: inline-block;
+            padding: 20px;
+        }
+
+        .para4 {
+            color: antiquewhite;
+            background-color: rgb(56, 48, 37);
+            border: 5px solid antiquewhite;
+            border-radius: 10px;
+            padding: 5px;
+            display: inline-block;
+        }
+
+        .navbar {
+            background-color: rgb(41, 35, 27);
+            margin-bottom: 15px;
+            text-align: center;
+            
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 10px 10px;
+            margin-left:25px ;
+        }
+
+        .navbar a {
+            padding: 3px 3px;
+            text-decoration: none;
+            color: antiquewhite
+        }
+
+        @media (min-width:400px) and (max-width: 600px) {
+            .navbar{
+                float: inline-end;
+                flex: auto;
+                flex-direction: column;
+            }
+
+            .para1 {
+                display: flex;
+                flex-direction: column;
+
+
+
+            }
+
+            .para2 {
+                display: flex;
+                flex-direction: column;
+                white-space: pre-wrap;
+                overflow-wrap: anywhere;
+
+            }
+
+            .para3 {
+                display: flex;
+                flex-direction: column;
+                white-space: pre-wrap;
+                overflow-wrap: anywhere;
+            }
+
+        }
+        @media (max-width: 400px) {
+
+            Body {
+                background-size: 100px;
+                background-position-x: 250px;
+                Background-position-y: 470px;
+
+            }}
+
+        @media (min-width:401px) and (max-width: 404px) {
+
+            Body {
+                background-size: 100px;
+                background-position-x: 250px;
+                Background-position-y: 425px;
+
+            }}
+
+            
+        @media (min-width:405px) and (max-width: 449px) {
+
+            Body {
+                background-size: 100px;
+                background-position-x: 250px;
+                Background-position-y: 390px;
+
+            }}
+
+            @media (min-width:450px) and (max-width: 600px) {
+
+            Body {
+                background-size: 80px;
+                background-position-x: 330px;
+                Background-position-y: 485px;
+
+            }
+        }
+         @media (min-width:400px) and (max-width: 600px){
+            .navbar{
+                margin-bottom: 20px;
+            }
+            .para1{
+                margin-top: 0px;
+            }
+         }
+          @media (min-width:601px) and (max-width: 800px) {
+
+            Body {
+                background-size: 200px;
+                background-position-x: 450px;
+                Background-position-y: 230px;
+
+            }}
+        
+    </style>
+</head>
+
+<body>
+    <section class="home">
+    <h1>Akshay's PORTFOLIO</h1> <br>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about me">ABOUT ME</a></li>
+                <li><a href="#my skills">MY SKILLS</a></li>
+                <li><a href="#projects/interest">PROJECTS/INTERESTS</a></li>
+                <li><a href="#CONTACT">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header><br>
+    <p class="para1">
+        NAME : Akshay Sharma <br>
+        BRANCH : Information Technology <br>
+        ROLLNO : 1803
+    </P><br></section>
+    <section id="about me">
+    <h2>ABOUT ME!</h2><br>
+    <p class="para2">
+        Heyy! my name is AKSHAY SHARMA.i am 16 years old. <br>
+        I am a student of GNDP college in INFORMATION TECHNOLOGY 2nd year.<br>
+        I have a keen interest in artificial inteligence and enjoy learning about new tech stuff . <br>
+        Currently , i am learning about diffrent programming languages . <br>
+        I have learned html and enjoy creating simple web pages . <br>
+        In my free time, i love travelling and exploring new places . <br>
+        I want to become an AI engineer in future .
+    </p><br></section>
+    <section id="my skills">
+    <h2>MY SKILLS !</h2>
+    <ul style="list-style-type: circle;" class="list1">
+        <LI>HTML/CSS</LI>
+        <LI>Database</LI>
+        <Li>Video editing</Li>
+    </ul><br></section>
+    <section id="projects/interest">
+    <h2>PROJECTS/INTERESTS :</h2><br>
+    <p class="para3"> There is no project that i have done till now. <br>
+        This webpage will be my first project .My interest is in artificial inteligence and car designing . <br>
+        I want to become an AI engineer . </p><br></section>
+        <section id="CONTACT">
+    <h2>CONTACT :</h2><br>
+    <p class="para4">mobile no :</p>
+    <a href="tel:+917717451159">77174-51159</a><br>
+    <p class="para4">email :</p>
+    <a href="mailto:ak2412200826@gmail.com">ak2412200826@gmail.com</a></section>
+</body>
